@@ -4,14 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 
 <body>
-    <h1>
-        TypeScript
-    </h1>
-    <p>Hello World</p>
+    <h1>Calculator</h1>
+    <input type="number" id="num1" placeholder="birinchi sonni kiring">
+    <input type="number" id="num2" placeholder="ikkinchi sonni kiriting">
+    <br><br>
+    <button onclick="add()">Qo'shish (+)</button>
+    <button onclick="subtract()">Ayrish (-)</button>
+    <button onclick="multiply()">Ko'paytrish (*)</button>
+    <button onclick="divide()">Bo'lish (/)</button>
+    <br><br>
+    <h2>Natija: <span id="result">---</span></h2>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

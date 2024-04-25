@@ -120,3 +120,30 @@ if (productListElement) {
   });
 }
 // ---SHOPPING CART ---//
+
+// TypeScript da kvadrat uchun funksiya
+function areaOfSquare(sideLength: number): number {
+  return sideLength * sideLength;
+}
+
+// Masalan, tomon uzunligi 5 bo'lgan kvadratning yuzi
+const squareArea = areaOfSquare(5);
+console.log("Kvadratning yuzi:", squareArea);
+
+// TypeScript da to'g'ri to'rtburchak uchun funksiya
+function areaOfRectangle(length: number, width: number): number {
+  return length * width;
+}
+
+// Masalan, uzunligi 4 va eni 3 bo'lgan to'g'ri to'rtburchakning yuzi
+const rectangleArea = areaOfRectangle(4, 3);
+console.log("To'g'ri to'rtburchakning yuzi:", rectangleArea);
+
+// TypeScript da doira uchun funksiya
+function areaOfCircle(radius: number): number {
+  return Math.PI * radius * radius;
+}
+
+// Masalan, radiusi 6 bo'lgan doira yuzi
+const circleArea = areaOfCircle(6);
+console.log("Doira yuzi:", circleArea);

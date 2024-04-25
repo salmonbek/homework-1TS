@@ -33,3 +33,10 @@ function displayResult(value) {
     resultElement.textContent = value.toString();
   }
 }
+
+// function area(a, b, c) {
+//   let s = a * b + c;
+//   return s;
+// }
+// let S1 = area(2, 3, 4);
+// console.log(S1);
